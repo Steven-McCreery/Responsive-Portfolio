@@ -186,7 +186,8 @@ a:focus {
 .icons{
 	float: left;
 	position: relative;
-	left: 30px;
+	/*left: 30px;*/
+	margin: 16px 30px 0px;
 }
 
 .contact_links{
@@ -324,11 +325,64 @@ a:focus {
 	margin: 0px auto;
 }
 
-@media screen (max-width: 980px;);
+@media screen and (max-width:980px){
+	.page{
+		width: 90%;
+	}
 
-@media screen (max-width: 768px;);
+	.container1{
+		width: 72%;
+    	margin: 0px auto;
+    	padding-left: 27px;
+	}
 
-@media screen (max-width: 640px;);
+	.content_body{
+		width: 80%;
+		margin: 103px;
+	}
+
+	.content{
+		width: 60%;
+	}
+
+	.contact_links{
+		width: 34%;
+	}
+
+	.my_picture{
+		width: 86%;
+		margin: 29px;
+	}
+
+	.icons{
+		margin: 10px 15px 0px;
+	}
+
+	.teal_text2{
+		margin: 0px 25px;
+	}
+}
+
+@media screen and (max-width:768px){
+	.content_body{
+		width: 90%;
+	}
+
+	.content{
+		width: 90%;
+	}
+
+
+	.contact_links{
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 640px;){
+	.header{
+		
+	}
+}
 
 
 
