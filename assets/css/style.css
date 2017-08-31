@@ -13,15 +13,15 @@ body{
 }*/
 
 .page{
-	/*width: 960px;*/
+	width: 960px;
 	/*float: center;*/
-	/*margin: auto;*/
+	margin: 0px auto;
 }
 
 .content_body{
 	width: 960px;
 	/*position: fixed;*/
-	margin: 103px 0px 110px 90px;
+	margin: 103px auto 110px;
 	/*padding: 300px;*/
 	z-index: 100;
 	float: left;
@@ -36,7 +36,11 @@ body{
 	top: 0px;
 	left: 0px;
 	right: 0px;
-	z-index: 100;
+	z-index: 300;
+}
+
+.h1{
+	height: 100%;
 }
 
 .content{
@@ -60,15 +64,15 @@ body{
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 25px;
 	text-align:center;
-	line-height: 90px;
+	line-height: 100px;
 	width: 240px;
 	float: left;
 	/*left: 90px;*/
 	/*bottom: 0px;*/
 	/*top: 0px;*/
 	/*position:absolute;*/
-	height: 100%;
-	margin-left: 90px;
+	height: 100px;
+	/*margin-left: 90px;*/
 }
 
 /*h2{
@@ -142,11 +146,16 @@ body{
 	height: 100px;
 	float: right;
 	/*clear: all;*/
-	position: absolute;
-	right: 150px;
+	position: relative;
+	/*right: 150px;*/
 	vertical-align: middle;
-	top: 50px;
+	/*top: 50px;*/
 }
+
+.nav_bar{
+	margin: 45px auto 0px;
+}
+
 .nav1{
 	float: right;
 }
@@ -308,4 +317,47 @@ a:focus {
 	/*margin: 0px auto;*/
 	position: absolute;
 }
+
+
+.container1{
+	width: 960px;
+	margin: 0px auto;
+}
+
+@media screen (max-width: 980px;);
+
+@media screen (max-width: 768px;);
+
+@media screen (max-width: 640px;);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
