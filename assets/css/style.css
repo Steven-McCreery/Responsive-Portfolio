@@ -333,20 +333,24 @@ a:focus {
 	.container1{
 		width: 72%;
     	margin: 0px auto;
-    	padding-left: 27px;
+    	padding-left: 3%;
 	}
 
 	.content_body{
 		width: 80%;
-		margin: 103px;
+		margin: 12%;
 	}
 
 	.content{
-		width: 60%;
+		width: 55%;
 	}
 
 	.contact_links{
-		width: 34%;
+		width: 40%;
+	}
+
+	.icons{
+		margin: 1% 0px 1% 11%;
 	}
 
 	.my_picture{
@@ -354,12 +358,18 @@ a:focus {
 		margin: 29px;
 	}
 
-	.icons{
-		margin: 10px 15px 0px;
+	.teal_text2{
+		margin: 0px 10%;
 	}
 
-	.teal_text2{
-		margin: 0px 25px;
+	.picture{
+		width: 86%;
+		height: auto;
+	}
+
+	.picture_title{
+		margin: 53% 0px 0px 30px;
+		width: 86%;
 	}
 }
 
